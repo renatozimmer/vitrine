@@ -1,0 +1,98 @@
+a:link {
+ 	text-decoration: none;
+ 	background-color: #CCC;
+ 	color:black; 
+}
+
+a:hover {
+ 	text-decoration: underline;
+ 	background-color:  #81DAF5;
+}
+div#Janela{
+	height: 350px;
+	max-height: 350px;
+	min-height: 180px;
+	width: 1800px;	
+	max-width: 1800px;		
+	min-width: 1024px;	
+	position: center;
+	position: static;
+	overflow: hidden;
+
+}
+
+div#referencia{
+	height: 100%;
+	max-height: 100%;
+	min-height: 47%;
+	width: 170px;
+	max-width: 170px;
+	min-width: 170px;
+	position: left;
+	position: relative;
+	float: left;
+	border-radius: 10px 20px;
+}
+#referencia:hover{
+	background-color:  #81DAF5;
+}
+#visitou{
+	height:25px; 
+	width: 170px; 
+	float: left; 
+	background-color: #81DAF5;
+	border-radius: 2px 2px;
+}
+
+#Recomendados{
+	height:25px; 
+	width: 1530px; 
+	 
+	background-color: #81DAF5;
+	border-radius: 2px 2px;
+
+}
+
+
+div#sugestao{
+	height: 100%;
+	max-height: 100%;
+	min-height: 47%;
+	width: 90%;
+	max-width: 110%;
+	min-width: 60%;
+	position: relative;
+	white-space: pre-line;
+	overflow-x: auto;
+    overflow-y: hidden;
+    
+   
+}
+
+.Carousel:hover{
+	background-color:  #81DAF5;
+	border-radius: 10px 20px;
+}
+
+.Carousel{
+	transform: translate3d(-100%, 0px, 0px);
+    -moz-transform: translate3d(-100%, 0px, 0px);
+    -ms-transform: translate3d(-100%, 0px, 0px);
+    -o-transform: translate(-100%, 0px, 0px);
+    transform: translate3d(-100%, 0px, 0px);
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    -moz-transition: -moz-transform 0.5s ease-out;
+    -ms-transition: -ms-transform 0.5s ease-out;
+    -o-transition: -o-transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+
+}
+
+.avanca{
+	margin-left: 32%;
+	margin-top: 80px;
+}
+.voltar{
+	margin-left: 32%;
+	margin-top: 80px;
+}
