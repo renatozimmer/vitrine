@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Exemplo de Vitrine</title>
-</head>
-<body>
-	<iframe src="produtos.html" style="width: 850px; height:420px; position: center border:none; border-radius: 20px 20px;"></iframe>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Lojas RZ</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Bitter" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="datasearch.js"></script>		
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<h1>Seja bem vindo</h1>
+			</header>
+		
+			<main class="main">
+				<div class="carousel-showmanymoveone">
+					<div class="carousel-inner">
+						<div class="main-viewed-produtc" id="visualized">
+							
+						</div>
+						<section class="container gallery-container">
+							<div class="main-suggested-produts" id="reference">
+								vitrine
+							</div>
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						</section>	
+					</div>
+				</div>
+				<div class="window">
+				</div>
+			</main>
+			
+					
+			<div class="clear"></div>
+		
+			<footer class="footer"><p>Desenvolvido por Renato Zimmer</p></footer>
+		</div>
+		<script type="text/javascript" src="carousel.js"></script>
+	</body>
 </html>
